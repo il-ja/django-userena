@@ -40,7 +40,7 @@ class ProfileListView(ListView):
     """ Lists all profiles """
     context_object_name='profile_list'
     page=1
-    paginate_by=50
+    paginate_by=6
     template_name=userena_settings.USERENA_PROFILE_LIST_TEMPLATE
     extra_context=None
 
